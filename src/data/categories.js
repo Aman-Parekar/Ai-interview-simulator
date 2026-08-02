@@ -1,0 +1,95 @@
+export const categories = [
+  {
+    id: 'frontend',
+    name: 'Frontend',
+    description: 'HTML, CSS, JavaScript and modern UI patterns.',
+    icon: 'HiOutlineCodeBracketSquare',
+    color: 'from-sky-500 to-blue-600',
+    topics: ['HTML', 'CSS', 'JavaScript', 'Accessibility', 'Performance'],
+  },
+  {
+    id: 'backend',
+    name: 'Backend',
+    description: 'APIs, databases, authentication and server design.',
+    icon: 'HiOutlineServerStack',
+    color: 'from-emerald-500 to-teal-600',
+    topics: ['REST', 'GraphQL', 'Databases', 'Auth', 'Caching'],
+  },
+  {
+    id: 'fullstack',
+    name: 'Full Stack',
+    description: 'End-to-end engineering across the stack.',
+    icon: 'HiOutlineSquares2X2',
+    color: 'from-violet-500 to-fuchsia-600',
+    topics: ['Architecture', 'DevOps', 'Testing', 'Monitoring'],
+  },
+  {
+    id: 'java',
+    name: 'Java',
+    description: 'Core Java, concurrency and the JVM ecosystem.',
+    icon: 'SiOpenjdk',
+    color: 'from-orange-500 to-red-600',
+    topics: ['Collections', 'Concurrency', 'JVM', 'Spring'],
+  },
+  {
+    id: 'cpp',
+    name: 'C++',
+    description: 'Memory, pointers, STL and systems programming.',
+    icon: 'SiCplusplus',
+    color: 'from-blue-500 to-indigo-600',
+    topics: ['Pointers', 'STL', 'Memory', 'Templates'],
+  },
+  {
+    id: 'python',
+    name: 'Python',
+    description: 'Pythonic patterns, data structures and libraries.',
+    icon: 'SiPython',
+    color: 'from-yellow-500 to-amber-600',
+    topics: ['Data Structures', 'OOP', 'Generators', 'Async'],
+  },
+  {
+    id: 'react',
+    name: 'React',
+    description: 'Hooks, state, rendering and the React ecosystem.',
+    icon: 'FaReact',
+    color: 'from-cyan-500 to-sky-600',
+    topics: ['Hooks', 'State', 'Performance', 'Patterns'],
+  },
+  {
+    id: 'node',
+    name: 'Node.js',
+    description: 'Event loop, streams, and server-side JavaScript.',
+    icon: 'FaNodeJs',
+    color: 'from-green-500 to-emerald-600',
+    topics: ['Event Loop', 'Streams', 'Modules', 'Security'],
+  },
+  {
+    id: 'system-design',
+    name: 'System Design',
+    description: 'Scalability, reliability and large-scale architecture.',
+    icon: 'HiOutlineCubeTransparent',
+    color: 'from-rose-500 to-pink-600',
+    topics: ['Scalability', 'Caching', 'Sharding', 'CAP'],
+  },
+  {
+    id: 'behavioral',
+    name: 'Behavioral',
+    description: 'STAR stories, leadership and communication.',
+    icon: 'HiOutlineChatBubbleLeftRight',
+    color: 'from-purple-500 to-violet-600',
+    topics: ['Leadership', 'Conflict', 'Failure', 'Teamwork'],
+  },
+];
+
+export const difficulties = [
+  { id: 'easy', name: 'Easy', color: 'text-success-400', ring: 'ring-success-500/30', bg: 'bg-success-500/10' },
+  { id: 'medium', name: 'Medium', color: 'text-warning-400', ring: 'ring-warning-500/30', bg: 'bg-warning-500/10' },
+  { id: 'hard', name: 'Hard', color: 'text-error-400', ring: 'ring-error-500/30', bg: 'bg-error-500/10' },
+];
+
+export const durations = [
+  { id: 15, label: '15 min', questions: 5 },
+  { id: 30, label: '30 min', questions: 8 },
+  { id: 45, label: '45 min', questions: 12 },
+  { id: 60, label: '60 min', questions: 15 },
+];
